@@ -1,0 +1,34 @@
+.Parentcontainer {
+  /* border: 2px solid; */
+  width: 550px;
+  height: auto;
+  display: flex;
+  position: relative;
+  left: 55px;
+  top: 55px;
+  gap: 30px;
+}
+.Parentcontainer img {
+margin: 10px;
+
+}
+.child1 img {
+width: 206px;
+height: 420px;
+}
+.child {
+width: 200px;
+}
+.Grand {
+display: flex;
+width: 100%;
+gap: 20px;
+}
+.Subparent {
+width: 400px;
+height: 250px;
+/* background-color: rgba(0,0,0,0.5); */
+position: relative;
+left: 250px;
+top: 125px;
+}
